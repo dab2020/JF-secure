@@ -6,5 +6,5 @@ Pre-requites:
 Port 80 & 443 to be forwarded and duckdns set-up and an exemption in firewall for UDP/TCP port 80 & 443
 <br>
 How to use
-Download the files , extract and install it using the JF-secure_setup.exe, then edit the caddyfile's first line to include your duckdns or other domain and put in your C;/caddy directory
+Download the files , extract and install it using the JF-secure_setup.exe, then edit the caddyfile's first line to include your duckdns or other domain and put in your C;/caddy directory and run the initial.bat and from the pop-up select the select-me-in-NSSM.bat, you're good to go
 <br> 
