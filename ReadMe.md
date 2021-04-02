@@ -39,7 +39,7 @@
   <h3 align="center">JF-secure</h3>
 
   <p align="center">
-    project_description
+    A tool to automatically reverse procy Jellyfin
     <br />
     <a href="https://github.com/dab2020/JF-secure"><strong>Explore the docs »</strong></a>
     <br />
