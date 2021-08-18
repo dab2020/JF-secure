@@ -1,4 +1,4 @@
-
+; Script generated with the Venis Install Wizard
 
 ; Define your application name
 !define APPNAME "JF-Secure"
@@ -8,7 +8,7 @@
 Name "${APPNAMEANDVERSION}"
 InstallDir "$PROGRAMFILES\JF-Secure"
 InstallDirRegKey HKLM "Software\${APPNAME}" ""
-OutFile "..\..\..\..\Downloads\JF-secure.exe"
+OutFile "..\..\..\..\Downloads\JF.exe"
 
 ; Modern interface settings
 !include "MUI.nsh"
@@ -36,9 +36,9 @@ Section "JF-Secure" Section1
 
 	; Set Section Files and Shortcuts
 	SetOutPath "$INSTDIR\"
+	File "..\Production\Caddyfile"
 	File "..\Production\a.bat"
 	File "..\Production\caddy.exe"
-	File "..\Production\Caddyfile"
 	File "..\Production\domain.exe"
 	File "..\Production\nssm.exe"
 	File "..\Production\start.bat"
@@ -79,9 +79,9 @@ Section Uninstall
 	Delete "$SMPROGRAMS\JF-Secure\Uninstall.lnk"
 
 	; Clean up JF-Secure
+	Delete "$INSTDIR\Caddyfile"
 	Delete "$INSTDIR\a.bat"
 	Delete "$INSTDIR\caddy.exe"
-	Delete "$INSTDIR\Caddyfile"
 	Delete "$INSTDIR\domain.exe"
 	Delete "$INSTDIR\nssm.exe"
 	Delete "$INSTDIR\start.bat"
