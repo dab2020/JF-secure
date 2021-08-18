@@ -1,5 +1,5 @@
 @echo off
-C:\Program Files (x86)\JF-Secure
+cd C:\Program Files (x86)\JF-Secure
 color 02
 echo JF - secure
 echo This is a Stack that helps reverse proxy Jellyfin
