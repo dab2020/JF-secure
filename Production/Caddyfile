@@ -1,0 +1,14 @@
+example.org {
+	encode gzip
+		log {
+			output file C:\caddy\logs\emby_access.log {
+				roll true				# Rotate logs, enabled by default
+				roll_size_mb 5			# Set max size 5 MB
+				roll_gzip true			# Whether to compress rolled files
+				roll_local_time true	# Use localhost time
+				roll_keep 2				# Keep at most 2 log files
+				roll_keep_days 7		# Keep log files for 7 days 
+			}
+		}
+    reverse_proxy localhost:8096
+}
