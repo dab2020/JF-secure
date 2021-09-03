@@ -1,31 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -39,13 +11,8 @@
   <h3 align="center">JF-secure</h3>
 
   <p align="center">
-    A tool to automatically reverse procy Jellyfin
+    A tool stack to automatically reverse proxy Jellyfin
     <br />
-    <a href="https://github.com/dab2020/JF-secure"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/dab2020/JF-secure">View Demo</a>
-    ·
     <a href="https://github.com/dab2020/JF-secure/issues">Report Bug</a>
     ·
     <a href="https://github.com/dab2020/JF-secure/issues">Request Feature</a>
@@ -87,13 +54,15 @@
 
 
 
-There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was easy for users, so I decieded to take open source software like Caddy web-server and NSSM to create a easy tool that will reverse-proxy Jellyfin for you. I want to create a an automated tool that does that for you. Right now its just some files thrown into a installer and some commands loaded into it, but I hope that I can make it into a full tool that is super easy to use.
+There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was easy for users, so I decieded to take open source software like Caddy web-server and NSSM to create a easy tool stack that will reverse-proxy Jellyfin for you. I want to create a an automated stack that does that for you. Right now its just some files thrown into a installer and some commands loaded into it, but I hope that I can make it into a full tool that is super easy to use.
 
 ### Built With
 
-* [Nullisoft script install system](https://nsis.sourceforge.io/)
-* [NSSM](https://nssm.cc/)
-* [Caddy webserver](https://caddyserver.com/)
+* Bat Files
+* NSSM
+* Caddy webserver
+* Python
+* NSIS
 
 
 
@@ -101,26 +70,22 @@ There are many great reverse-proxy tools available on GitHub, however, I didn't 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-Clone the repo and open the exe.nsi file in NSIS and compile it. You can experiment by changing the script and .bat files.
+Clone the repo and experiment by changing the script and .bat files.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* Dynamic Dns or a custom domain
+* A DDNS or custom domain
 * Port 80 & 443 forwarded to the machine
 * Exemption in firewall for port 80 & 443
-* remote access allowed in Jellyfin
+* Remote access allowed in Jellyfin
 
 ### Installation
 
-1. Download the latest release combined.zip
-2. Extract it
-3. Run the JF-secure_install.exe  (keep install location as default)
-4. Open the caddyFile and edit the first line to your Jellyfin duckdns or custom domain
-5. copy the caddy file to C:\caddy
-6. Run the initial.bat file
-7. In the pop-up box select select-me-in-NSSM.bat and click OK
-8. You are all good to go
+1. Download the latest release
+2. Run the installer
+3. Click the shortcut on the desktop
+4. Then press a
+5. Input the domain as well as the Jellyfin Server address when prompted
+6. You are all good to go
 
 
 <!-- USAGE EXAMPLES -->
