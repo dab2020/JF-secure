@@ -79,7 +79,8 @@ Clone the repo and experiment by changing the script and .bat files.
 * Remote access allowed in Jellyfin
 
 ### Installation
-
+## Note
+It was brought to my attention that you may require Visual Studio redistributables, that can be downloaded from <a href="https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft's Offical Site </a>
 1. Download the latest release
 2. Run the installer
 3. Click the shortcut on the desktop
