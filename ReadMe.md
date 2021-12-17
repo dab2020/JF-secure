@@ -1,6 +1,3 @@
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -54,15 +51,14 @@
 
 
 
-There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was easy for users, so I decieded to take open source software like Caddy web-server and NSSM to create a easy tool stack that will reverse-proxy Jellyfin for you. I want to create a an automated stack that does that for you. Right now its just some files thrown into a installer and some commands loaded into it, but I hope that I can make it into a full tool that is super easy to use.
+There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was user friendly for beginner users, so I decided to take open source software like [Caddy Web-server](https://github.com/caddyserver/caddy) and [NSSM](https://github.com/kirillkovalenko/nssm) to create a easy tool stack that will reverse-proxy Jellyfin for you. I wanted it to be automated and be easy to use, even for novice users.
 
 ### Built With
 
-* Bat Files
-* NSSM
-* Caddy webserver
-* Python
-* NSIS
+* Visual Basic .NET Framework
+* [NSIS](https://sourceforge.net/projects/nsis/)
+* [NSSM](https://github.com/kirillkovalenko/nssm)
+* [Caddy Webserver](https://github.com/caddyserver/caddy)
 
 
 
@@ -70,23 +66,25 @@ There are many great reverse-proxy tools available on GitHub, however, I didn't 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-Clone the repo and experiment by changing the script and .bat files.
+Clone the repo and make changes by editing the code primarily the JF-Secure.vb. A Visual Studio Solution is provided for easy setup.
 
 ### Prerequisites
-* A DDNS or custom domain
-* Port 80 & 443 forwarded to the machine
-* Exemption in firewall for port 80 & 443
+* A Custom Domain (ideally using Dynamic DNS)
+* Port 80 & 443 forwarded to the Server
+* Exemption in the firewall for port 80 & 443
 * Remote access allowed in Jellyfin
 
 ### Installation
 ## Note
-It was brought to my attention that you may require Visual Studio redistributables, that can be downloaded from <a href="https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft's Offical Site </a>
+<b>A remnant of the python script days, Though this is not required, it is good practice </b>
+It was brought to my attention in issue #2 that you may require Visual Studio redistributables, that can be downloaded from <a href="https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft's Official Site </a>
 1. Download the latest release
 2. Run the installer
 3. Click the shortcut on the desktop
-4. Then press a
-5. Input the domain as well as the Jellyfin Server address when prompted
-6. You are all good to go
+4. Click yes, when it askes if this is your first time running the program
+5. The Program will ask some questions i.e. domain and address of the Jellyfin Server.
+6. The Program will perform some background Tasks and then You are all set to go.
+7. The service automatically starts in the background upon system start.
 
 
 <!-- USAGE EXAMPLES -->
@@ -94,7 +92,7 @@ It was brought to my attention that you may require Visual Studio redistributabl
 
 1. To reverse-proxy Jellyfin
 2. To enable remote-access
-3. If you change the port in the last line, you can reverse-proxy other services as well
+3. If you change the port and address when prompted for the address of the Jellyfin Server, you can also reverse proxy other services, however additional configuration will be required and I will not be able to help you in Troubleshooting
 
 
 
@@ -118,17 +116,12 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the Apache Open Source Licence 2.0 License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Dayyan Abdullah - contact@dayyanabdullah.me
+<b>Please don't contact me  for useless stuff like Technical Support and issues, for those open a Github issue.
 
 Project Link: [https://github.com/dab2020/JF-secure](https://github.com/dab2020/JF-secure)
 
