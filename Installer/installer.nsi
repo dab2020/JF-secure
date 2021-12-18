@@ -1,8 +1,8 @@
-
+; Script generated with the Venis Install Wizard
 
 ; Define your application name
 !define APPNAME "JF-Secure"
-!define APPNAMEANDVERSION "JF-Secure 3.0"
+!define APPNAMEANDVERSION "JF-Secure 3.1"
 
 ; Main Install settings
 Name "${APPNAMEANDVERSION}"
@@ -17,6 +17,7 @@ OutFile "..\..\..\JF\OutFile.exe"
 !define MUI_FINISHPAGE_RUN "$INSTDIR\JF Secure.exe"
 
 !insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_LICENSE "License.txt"
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
@@ -35,7 +36,10 @@ Section "JF-Secure" Section1
 
 	; Set Section Files and Shortcuts
 	SetOutPath "$INSTDIR\"
+	File "Caddy License.txt"
 	File "JF Secure.exe"
+	File "License.txt"
+	File "ReadMe.md"
 	File "caddy.exe"
 	File "nssm.exe"
 	CreateShortCut "$DESKTOP\JF-Secure.lnk" "$INSTDIR\JF Secure.exe"
@@ -75,7 +79,10 @@ Section Uninstall
 	Delete "$SMPROGRAMS\JF-Secure\Uninstall.lnk"
 
 	; Clean up JF-Secure
+	Delete "$INSTDIR\Caddy License.txt"
 	Delete "$INSTDIR\JF Secure.exe"
+	Delete "$INSTDIR\License.txt"
+	Delete "$INSTDIR\ReadMe.md"
 	Delete "$INSTDIR\caddy.exe"
 	Delete "$INSTDIR\nssm.exe"
 
