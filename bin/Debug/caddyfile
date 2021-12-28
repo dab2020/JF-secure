@@ -1,5 +1,0 @@
-﻿localhost:8080 {
-	encode gzip
-		}
-    reverse_proxy localhost:8096 
-}
