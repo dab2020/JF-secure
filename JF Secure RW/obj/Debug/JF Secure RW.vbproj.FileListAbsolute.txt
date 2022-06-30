@@ -1,0 +1,12 @@
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.AssemblyReference.cache
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF_Secure_RW.Resources.resources
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.GenerateResource.cache
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.CoreCompileInputs.cache
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.exe.config
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.exe
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.pdb
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.xml
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.exe
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.xml
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.pdb
