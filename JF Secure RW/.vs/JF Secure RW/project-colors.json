@@ -5,7 +5,22 @@
       "ProjectGuid": "19514271-3bed-47e3-a0e4-6a82f5c548c0",
       "DisplayName": "JF Secure RW",
       "ColorIndex": 0
+    },
+    "c26d4405-03f3-4269-b233-20112eb9e504": {
+      "ProjectGuid": "c26d4405-03f3-4269-b233-20112eb9e504",
+      "DisplayName": "Onboarding Setup",
+      "ColorIndex": 1
+    },
+    "3e111587-821a-4487-b3ea-379e0fe2ca3d": {
+      "ProjectGuid": "3e111587-821a-4487-b3ea-379e0fe2ca3d",
+      "DisplayName": "FirstSetup",
+      "ColorIndex": 2
+    },
+    "6593ba7e-4ae4-4b36-9b81-765af72e6064": {
+      "ProjectGuid": "6593ba7e-4ae4-4b36-9b81-765af72e6064",
+      "DisplayName": "FirstTime",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
