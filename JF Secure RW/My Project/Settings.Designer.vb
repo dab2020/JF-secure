@@ -65,6 +65,30 @@ Namespace My
                 Me("FirstRun") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property Domain() As String
+            Get
+                Return CType(Me("Domain"),String)
+            End Get
+            Set
+                Me("Domain") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property Jellyurl() As String
+            Get
+                Return CType(Me("Jellyurl"),String)
+            End Get
+            Set
+                Me("Jellyurl") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

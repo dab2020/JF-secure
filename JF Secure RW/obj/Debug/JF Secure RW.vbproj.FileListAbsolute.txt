@@ -10,7 +10,8 @@ C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.exe
 C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.xml
 C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.pdb
 C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.AssemblyReference.cache
-C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\FirstTime.dll
-C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\FirstTime.pdb
-C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\FirstTime.xml
-C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure RW.vbproj.CopyComplete
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.exe.manifest
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\bin\Debug\JF Secure.application
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.TrustInfo.xml
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.exe.manifest
+C:\Users\Tech\Documents\GitHub\JF-secure\JF Secure RW\obj\Debug\JF Secure.application
