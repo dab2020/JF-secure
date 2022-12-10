@@ -1,5 +1,4 @@
-﻿Imports System
-Imports System.IO
+﻿Imports System.IO
 Public Module FirstTimeSetup
     ' This sub deals with inputting
     Public Sub FTS()
@@ -16,7 +15,7 @@ Public Module FirstTimeSetup
             My.Settings.Save()
             Savefile()
             Batfilecreate()
-            Startnssmservice()
+            StartWinsswservice()
         End If
 
     End Sub
@@ -33,6 +32,7 @@ Public Module FirstTimeSetup
     End Sub
 
     Public Sub Batfilecreate()
+        ' Creates a Bat file that Nssm uses to start and stop the Caddy Service
         Dim dir As String = Environment.CurrentDirectory
         Dim batfilewrite As StreamWriter
         batfilewrite = New StreamWriter(dir & "\caddy.bat")
@@ -40,18 +40,23 @@ Public Module FirstTimeSetup
         batfilewrite.WriteLine("caddy run")
         batfilewrite.Close()
     End Sub
-    Public Sub Startnssmservice()
-        ' This is for the service manager and caddy. It sets it up as a process
-        Dim nssm As New ProcessStartInfo
-        Dim caddy As New ProcessStartInfo
-        nssm.FileName = Environment.CurrentDirectory & "\nssm.exe"
-        caddy.FileName = Environment.CurrentDirectory & "\caddy.exe"
-        nssm.Arguments = "install JF-Secure " & Environment.CurrentDirectory & "/caddy.bat"
+    Public Sub StartWinsswservice()
+        ' This is for the service manager and caddy. It sets it up as a background service
+        Shell("JF-Secure(WinSSW).exe install")
+        Threading.Thread.Sleep(5000)
+        Shell("JF-Secure(WinSSW).exe start")
+        Threading.Thread.Sleep(5000)
+        Shell("JF-Secure(WinSSW).exe start")
+        Threading.Thread.Sleep(5000)
+        Console.WriteLine("Press Any Key to Exit...")
     End Sub
 
-    Public Sub Removenssm()
-        Dim nssmr As New ProcessStartInfo
-        nssmr.FileName = Environment.CurrentDirectory & "\nssm.exe"
-        nssmr.Arguments = "remove JF-Secure"
+    Public Sub RemoveWinSSW()
+        ' Removes the WinSSW service that allows for a clean uninstall
+        Shell("JF-Secure(WinSSW).exe stop")
+        Threading.Thread.Sleep(5000)
+        Shell("JF-Secure(WinSSW).exe uninstall")
+        Threading.Thread.Sleep(5000)
+        Console.WriteLine("Press Any Key to Exit...")
     End Sub
 End Module

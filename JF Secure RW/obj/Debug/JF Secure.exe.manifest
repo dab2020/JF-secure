@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JF Secure.exe" size="43008">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JF Secure.exe" size="43520">
       <assemblyIdentity name="JF Secure" version="4.0.0.0" publicKeyToken="13ACA047991A1035" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tTQ9z/qLRQ9gdtfqSY9kNB10KdngWTudcRRGQWXh3U4=</dsig:DigestValue>
+        <dsig:DigestValue>mxan90fheRRrWSNAiG+F1B2Zyp3ua3FdNLjtg1W5Nlw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
