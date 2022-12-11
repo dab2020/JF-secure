@@ -51,13 +51,12 @@
 
 
 
-There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was user friendly for beginner users, so I decided to take open source software like [Caddy Web-server](https://github.com/caddyserver/caddy) and [NSSM](https://github.com/kirillkovalenko/nssm) to create a easy tool stack that will reverse-proxy Jellyfin for you. I wanted it to be automated and be easy to use, even for novice users.
+There are many great reverse-proxy tools available on GitHub, however, I didn't find one that really suit my needs and was user friendly for beginner users, so I decided to take open source software like [Caddy Web-server](https://github.com/caddyserver/caddy) and [WinSSW](https://github.com/winsw/winsw) to create a tool stack that will reverse-proxy Jellyfin for you. I wanted it to be automated and easy to use, even for novice users.
 
 ### Built With
 
-* Visual Basic .NET Framework
-* [NSIS](https://sourceforge.net/projects/nsis/)
-* [NSSM](https://github.com/kirillkovalenko/nssm)
+* Visual Basic .NET Framework (4.8)
+* [WinSSW](https://github.com/winsw/winsw)
 * [Caddy Webserver](https://github.com/caddyserver/caddy)
 
 
@@ -66,25 +65,35 @@ There are many great reverse-proxy tools available on GitHub, however, I didn't 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-Clone the repo and make changes by editing the code primarily the JF-Secure.vb. A Visual Studio Solution is provided for easy setup.
+Clone the repo and enter the JF-Secure RW directory from there open up the Visual Studio (2022) Solution
 
 ### Prerequisites
-* A Custom Domain (ideally using Dynamic DNS)
+* A Custom Domain (Ideally using Dynamic DNS)
 * Port 80 & 443 forwarded to the Server
 * Exemption in the firewall for port 80 & 443
 * Remote access allowed in Jellyfin
 
 ### Installation
-## Note
-<b>A remnant of the python script days, Though this is not required, it is good practice </b>
-It was brought to my attention in issue #2 that you may require Visual Studio redistributables, that can be downloaded from <a href="https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft's Official Site </a>
 1. Download the latest release
 2. Run the installer
 3. Click the shortcut on the desktop
-4. Click yes, when it askes if this is your first time running the program
-5. The Program will ask some questions i.e. domain and address of the Jellyfin Server.
-6. The Program will perform some background Tasks and then You are all set to go.
+4. The Program will ask some questions i.e. domain and address of the Jellyfin Server.
+6. The Program will perform some background Tasks and then You are all set to go. That may require Admin Privelieges, Click yes to allow those.
 7. The service automatically starts in the background upon system start.
+
+### Uninstalling
+1. Open up JF-Secure
+2. When Prompted enter 2 (The option for uninstalling Service)
+3. Close the Program
+4. Run the Uninstaller
+
+### Manually Creating a Backup
+As of now the BackUp Create Function is flawed so you need to create a manual backup
+1. Enter the Install Directory of JF-Secure
+2. Find the Caddyfile
+3. Copy it to your desired destination
+4. Rename it to backup.jfsbk
+You can now use this to restore your Installation
 
 
 <!-- USAGE EXAMPLES -->
@@ -120,7 +129,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Dayyan Abdullah - contact@dayyanabdullah.me
+Dayyan Abdullah - contact@dayyanabdullah.tech
 <b>Please don't contact me  for useless stuff like Technical Support and issues, for those open a Github issue.
 
 Project Link: [https://github.com/dab2020/JF-secure](https://github.com/dab2020/JF-secure)
