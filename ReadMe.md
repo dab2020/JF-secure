@@ -17,7 +17,6 @@
 </p>
 
   ![license-shield](https://img.shields.io/github/license/dab2020/JF-Secure.svg?style=for-the-badge) 
-
   ![forks-shield](https://img.shields.io/github/forks/dab2020/JF-Secure.svg?style=for-the-badge)
   ![stars-shield](https://img.shields.io/github/stars/dab2020/JF-Secure.svg?style=for-the-badge)
   ![issues-shield](https://img.shields.io/github/issues/dab2020/JF-Secure.svg?style=for-the-badge)
