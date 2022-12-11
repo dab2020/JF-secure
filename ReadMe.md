@@ -6,6 +6,7 @@
   </a>
 
   <h3 align="center">JF-secure</h3>
+ 
   <p align="center">
     A tool stack to automatically reverse proxy Jellyfin
     <br />
@@ -15,6 +16,11 @@
   </p>
 </p>
 
+  ![license-shield](https://img.shields.io/github/license/dab2020/JF-Secure.svg?style=for-the-badge) 
+  ![visitors](https://visitor-badge.glitch.me/badge?page_id=dab2020.JF-Secure.id&left_color=green&right_color=red)
+  ![forks-shield](https://img.shields.io/github/forks/dab2020/JF-Secure.svg?style=for-the-badge)
+  ![stars-shield](https://img.shields.io/github/stars/dab2020/JF-Secure.svg?style=for-the-badge)
+  ![issues-shield](https://img.shields.io/github/issues/dab2020/JF-Secure.svg?style=for-the-badge)
 
 
 <!-- TABLE OF CONTENTS -->
@@ -134,7 +140,7 @@ Dayyan Abdullah - contact@dayyanabdullah.tech
 Project Link: [https://github.com/dab2020/JF-secure](https://github.com/dab2020/JF-secure)
 
 
-
+![visitors](https://visitor-badge.glitch.me/badge?page_id=dab2020.JF-Secure.id&left_color=green&right_color=red)
 
 
 
@@ -150,6 +156,6 @@ Project Link: [https://github.com/dab2020/JF-secure](https://github.com/dab2020/
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/dab2020/JF-Secure/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
