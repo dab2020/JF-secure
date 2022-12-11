@@ -1,7 +1,0 @@
-example.org {
-	encode gzip
-		tls {
-		dns duckdns 00token00 }
-		}
-    reverse_proxy localhost:8096 
-}

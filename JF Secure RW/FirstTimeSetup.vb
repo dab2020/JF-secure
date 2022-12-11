@@ -5,7 +5,7 @@ Public Module FirstTimeSetup
         ' Dim backup As Boolean
         Dim response As MsgBoxResult
         ' Checks if we have a backup. New Feature in *4.0*
-        response = MsgBox("Hi Welcome to JF-Secure. We will have you up and running in a few minutes. But Before we do, Do you have a backup from a previous Install?", MsgBoxStyle.YesNo)
+        response = MsgBox("Hi Welcome to JF-Secure. We will have you up and running in a few minutes. (Make Sure ports are open & DNS set before proceeding) But Before we do, Do you have a backup from a previous Install?", MsgBoxStyle.YesNo)
         If response = MsgBoxResult.Yes Then
             BackupImport()
         Else

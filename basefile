@@ -1,5 +1,0 @@
-example.org {
-	encode gzip
-		}
-    reverse_proxy localhost:8096
-}

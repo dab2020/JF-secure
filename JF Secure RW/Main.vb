@@ -23,6 +23,19 @@
             FTS()
         Else
             ' Because its not the first time that a user has opened the Program, it presensts options for actions
+            Console.WriteLine("    $$$$$\ $$$$$$$$\      $$$$$$\ ")
+            Console.WriteLine("   \__$$ |$$  _____|    $$  __$$\   ")
+            Console.WriteLine("      $$ |$$ |          $$ /  \__| $$$$$$\   $$$$$$$\ $$\   $$\  $$$$$$\   $$$$$$\  ")
+Console.WriteLine("      $$ |$$$$$\ $$$$$$\\$$$$$$\  $$  __$$\ $$  _____|$$ |  $$ |$$  __$$\ $$  __$$\ ")
+Console.WriteLine("$$\   $$ |$$  __|\______|\____$$\ $$$$$$$$ |$$ /      $$ |  $$ |$$ |  \__|$$$$$$$$ |")
+Console.WriteLine("$$ |  $$ |$$ |          $$\   $$ |$$   ____|$$ |      $$ |  $$ |$$ |      $$   ____|")
+Console.WriteLine("\$$$$$$  |$$ |          \$$$$$$  |\$$$$$$$\ \$$$$$$$\ \$$$$$$  |$$ |      \$$$$$$$\ ")
+Console.WriteLine(" \______/ \__|           \______/  \_______| \_______| \______/ \__|       \_______|")
+                                                                                    
+                                                                                    
+                                                                                    
+
+
             Console.WriteLine("Hello Welome back to JF-Secure what would you like to do? (Enter Number Only)")
             Console.WriteLine("1. Run Startup Wizard (edit Config)")
             Console.WriteLine("2. Create Backup")
