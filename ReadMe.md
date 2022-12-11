@@ -17,7 +17,7 @@
 </p>
 
   ![license-shield](https://img.shields.io/github/license/dab2020/JF-Secure.svg?style=for-the-badge) 
-  ![visitors](https://visitor-badge.glitch.me/badge?page_id=dab2020.JF-Secure.id&left_color=green&right_color=red)
+
   ![forks-shield](https://img.shields.io/github/forks/dab2020/JF-Secure.svg?style=for-the-badge)
   ![stars-shield](https://img.shields.io/github/stars/dab2020/JF-Secure.svg?style=for-the-badge)
   ![issues-shield](https://img.shields.io/github/issues/dab2020/JF-Secure.svg?style=for-the-badge)
@@ -138,10 +138,7 @@ Dayyan Abdullah - contact@dayyanabdullah.tech
 <b>Please don't contact me  for useless stuff like Technical Support and issues, for those open a Github issue.
 
 Project Link: [https://github.com/dab2020/JF-secure](https://github.com/dab2020/JF-secure)
-
-
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=dab2020.JF-Secure.id&left_color=green&right_color=red)
-
 
 
 
